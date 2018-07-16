@@ -1,0 +1,14 @@
+main: com.gmail.certifieddev33.Levels.Levels
+name: Levels 
+version: 1.0.1
+author: TheeRock
+description: Levels Plugin 
+depends: [WorldGuard]
+depends: [WGRegionEvents]
+commands:
+  setminlevel:
+    description: Sets min required level to enter this region.
+    usage: /setminlevel <region> <minLevel>
+    permission: Levels.setminlevel
+    permission-message: You do not have sufficient permission.
+    
